@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="category-header">
+        <div class="category-logo">
+            <h1>Cozy Corner Cafe</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="category.html" class="active">Menu Categories</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="category-section">
+            <h2>Our Menu Categories</h2>
+            <p>Select a category below to explore what we have fresh in store today.</p>
+
+            <div class="category-filter-buttons">
+                <button class="filter-button active" data-category="all">Show All</button>
+                <button class="filter-button" data-category="coffee">Coffee</button>
+                <button class="filter-button" data-category="drinks">Cold Drinks</button>
+                <button class="filter-button" data-category="snacks">Snacks & Pastries</button>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item" data-item-type="coffee">
+                    <div class="item-info">
+                        <h3>Flat White</h3>
+                        <p>Rich espresso blended with silky, velvety foam milk.</p>
+                        <img src="assets/photos/LatteFlatWhite.jpeg">
+                    </div>
+                </div>
+
+                <div class="menu-item" data-item-type="coffee">
+                    <div class="item-info">
+                        <h3>Long Black</h3>
+                        <p>A double-shot of espresso extracted over hot water.</p>
+                        <img src="assets/photos/longBlack.jpeg" >
+                    </div>
+                </div>
+
+                <!-- Drinks Items -->
+                <div class="menu-item" data-item-type="drinks">
+                    <div class="item-info">
+                        <h3>Iced Matcha Latte</h3>
+                        <p>Premium Japanese matcha whisked with cold milk over ice.</p>
+                        <img src="assets/photos/icedMatchaLatte.jpg" >
+                    </div>
+                </div>
+
+                <div class="menu-item" data-item-type="drinks">
+                    <div class="item-info">
+                        <h3>Fresh Berry Smoothie</h3>
+                        <p>A refreshing blend of seasonal berries, banana, and honey.</p>
+                        <img src="assets/photos/berrySmoothie.jpeg" >
+                    </div>
+                </div>
+
+                <!-- Snacks Items -->
+                <div class="menu-item" data-item-type="snacks">
+                    <div class="item-info">
+                        <h3>Almond Croissant</h3>
+                        <p>Flaky, twice-baked pastry filled with rich almond frangipane.</p>
+                        <img src="assets/photos/almondCroissant.jpeg" >
+                    </div>
+                </div>
+
+                <div class="menu-item" data-item-type="snacks">
+                    <div class="item-info">
+                        <h3>Toasted Banana Bread</h3>
+                        <p>House-made banana bread served warm with a side of butter.</p>
+                        <img src="assets/photos/bannanaBread.jpeg" >
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
