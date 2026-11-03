@@ -105,6 +105,13 @@ nav a.active {
     flex-wrap: wrap; 
 }
 
+.card-link {
+    text-decoration: none !important; 
+    display: flex;
+    flex: 1;
+    min-width: 280px;
+}
+
 .card {
     background: #ffffff;
     padding: 40px 30px;
@@ -132,14 +139,11 @@ nav a.active {
     color: #7d6653;
 }
 
-
-
 @media screen and (max-width: 768px) {
-    
-    header {
+
+    .index-header {
         padding: 20px;
         gap: 5px;
-
     }
 
     .index-logo {
@@ -159,6 +163,15 @@ nav a.active {
 
     nav ul li {
         margin: 5px 0;
+    }
+
+    .highlight-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-link {
+        width: 100%;
     }
 
     .hero {
