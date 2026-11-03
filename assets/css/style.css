@@ -1,5 +1,5 @@
 *, *::before, *::after {
-    box-sizing: border-box; /* Core fix: keeps all layouts mathematically sound */
+    box-sizing: border-box;
 }
 
 body {
@@ -337,7 +337,6 @@ nav a.active {
     outline: none;
 }
 
-/* Validation Highlights and Feedback States */
 .error-msg {
     color: #d9534f;
     font-size: 0.85rem;
@@ -511,7 +510,6 @@ main {
     padding: 0 20px;
 }
 
-/* Flexible grid wrapper utilizing wrapping layout flows */
 .products-grid {
     display: flex;
     flex-wrap: wrap;
@@ -519,7 +517,6 @@ main {
     justify-content: center;
 }
 
-/* Individual Product Cards */
 .product-card {
     background-color: #ffffff;
     border: 1px solid rgba(109, 84, 64, 0.15);
@@ -533,7 +530,7 @@ main {
     text-align: left;
     box-shadow: 0 4px 15px rgba(74, 55, 40, 0.02);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-sizing: border-box; /* Forces padding to stay within the card size boundaries */
+    box-sizing: border-box;
 }
 
 .product-card:hover {
@@ -541,7 +538,6 @@ main {
     box-shadow: 0 8px 25px rgba(74, 55, 40, 0.08);
 }
 
-/* Image wrappers ensuring photos fit card boundaries uniformly */
 .product-image {
     width: 100%;
     height: 200px;
@@ -557,7 +553,6 @@ main {
     display: block;
 }
 
-/* Internal text element spacing alignment inside the card containers */
 .product-info {
     padding: 25px 20px 20px 20px;
     display: flex;
@@ -577,7 +572,7 @@ main {
     font-size: 0.9rem;
     line-height: 1.4;
     margin: 0 0 15px 0;
-    flex-grow: 1; /* Pushes the price element perfectly down to the baseline layout line */
+    flex-grow: 1;
 }
 
 .product-price {
