@@ -24,82 +24,69 @@
     </header>
 
     <main>
-        <section class="products-section">
-            <h2>Our Full Menu Products</h2>
-            <p>Handcrafted with love. Click the filters below to browse our selection.</p>
+        <div class="products-grid">
+    
+    <!-- Product 1: Coffee -->
+    <div class="product-card" data-item-type="coffee">
+        <div class="product-image"><img src="assets/photos/LatteFlatWhite.jpeg"></div>
+        <div class="product-info">
+            <h3>Flat White</h3>
+            <p class="product-desc">Rich espresso blended with silky, velvety foam milk.</p>
+            <span class="product-price">$4.50</span>
+        </div>
+    </div>
 
-            <!-- Reuses the exact same filter class system from category page -->
-            <div class="category-filter-buttons">
-                <button class="filter-button active" data-category="all">Show All</button>
-                <button class="filter-button" data-category="coffee">Coffee</button>
-                <button class="filter-button" data-category="drinks">Cold Drinks</button>
-                <button class="filter-button" data-category="snacks">Snacks & Pastries</button>
-            </div>
+    <!-- Product 2: Coffee -->
+    <div class="product-card" data-item-type="coffee">
+        <div class="product-image"><img src="assets/photos/longBlack.jpeg"></div>
+        <div class="product-info">
+            <h3>Long Black</h3>
+            <p class="product-desc">A double-shot of espresso extracted over clean hot water.</p>
+            <span class="product-price">$4.00</span>
+        </div>
+    </div>
 
-            <!-- Products Grid Layout -->
-            <div class="products-grid">
-                
-                <!-- Product 1: Coffee -->
-                <div class="product-card menu-item" data-item-type="coffee">
-                    <div class="product-image"><img src="assets/photos/LatteFlatWhite.jpeg"></div>
-                    <div class="product-info">
-                        <h3>Flat White</h3>
-                        <p class="product-desc">Rich espresso blended with silky, velvety foam milk.</p>
-                        <span class="product-price">$4.50</span>
-                    </div>
-                </div>
+    <!-- Product 3: Drink -->
+    <div class="product-card" data-item-type="drinks">
+        <div class="product-image"><img src="assets/photos/icedMatchaLatte.jpg" ></div>
+        <div class="product-info">
+            <h3>Iced Matcha Latte</h3>
+            <p class="product-desc">Premium Japanese matcha whisked with cold milk over ice.</p>
+            <span class="product-price">$6.00</span>
+        </div>
+    </div>
 
-                <!-- Product 2: Coffee -->
-                <div class="product-card menu-item" data-item-type="coffee">
-                    <div class="product-image"><img src="assets/photos/longBlack.jpeg"></div>
-                    <div class="product-info">
-                        <h3>Long Black</h3>
-                        <p class="product-desc">A double-shot of espresso extracted over clean hot water.</p>
-                        <span class="product-price">$4.00</span>
-                    </div>
-                </div>
+    <!-- Product 4: Drink -->
+    <div class="product-card" data-item-type="drinks">
+        <div class="product-image"><img src="assets/photos/berrySmoothie.jpeg"></div>
+        <div class="product-info">
+            <h3>Fresh Berry Smoothie</h3>
+            <p class="product-desc">A refreshing blend of seasonal berries, banana, and honey.</p>
+            <span class="product-price">$7.50</span>
+        </div>
+    </div>
 
-                <!-- Product 3: Drink -->
-                <div class="product-card menu-item" data-item-type="drinks">
-                    <div class="product-image"><img src="assets/photos/icedMatchaLatte.jpg" ></div>
-                    <div class="product-info">
-                        <h3>Iced Matcha Latte</h3>
-                        <p class="product-desc">Premium Japanese matcha whisked with cold milk over ice.</p>
-                        <span class="product-price">$6.00</span>
-                    </div>
-                </div>
+    <!-- Product 5: Snack -->
+    <div class="product-card" data-item-type="snacks">
+        <div class="product-image"><img src="assets/photos/almondCroissant.jpeg"></div>
+        <div class="product-info">
+            <h3>Almond Croissant</h3>
+            <p class="product-desc">Flaky, twice-baked pastry filled with rich almond frangipane.</p>
+            <span class="product-price">$5.50</span>
+        </div>
+    </div>
 
-                <!-- Product 4: Drink -->
-                <div class="product-card menu-item" data-item-type="drinks">
-                    <div class="product-image"><img src="assets/photos/berrySmoothie.jpeg"></div>
-                    <div class="product-info">
-                        <h3>Fresh Berry Smoothie</h3>
-                        <p class="product-desc">A refreshing blend of seasonal berries, banana, and honey.</p>
-                        <span class="product-price">$7.50</span>
-                    </div>
-                </div>
+    <!-- Product 6: Snack -->
+    <div class="product-card" data-item-type="snacks">
+        <div class="product-image"><img src="assets/photos/bannanaBread.jpeg"></div>
+        <div class="product-info">
+            <h3>Toasted Banana Bread</h3>
+            <p class="product-desc">House-made banana bread served warm with a side of butter.</p>
+            <span class="product-price">$5.00</span>
+        </div>
+    </div>
 
-                <!-- Product 5: Snack -->
-                <div class="product-card menu-item" data-item-type="snacks">
-                    <div class="product-image"><img src="assets/photos/almondCroissant.jpeg"></div>
-                    <div class="product-info">
-                        <h3>Almond Croissant</h3>
-                        <p class="product-desc">Flaky, twice-baked pastry filled with rich almond frangipane.</p>
-                        <span class="product-price">$5.50</span>
-                    </div>
-                </div>
-
-                <!-- Product 6: Snack -->
-                <div class="product-card menu-item" data-item-type="snacks">
-                    <div class="product-image"><img src="assets/photos/bannanaBread.jpeg"></div>
-                    <div class="product-info">
-                        <h3>Toasted Banana Bread</h3>
-                        <p class="product-desc">House-made banana bread served warm with a side of butter.</p>
-                        <span class="product-price">$5.00</span>
-                    </div>
-                </div>
-
-            </div>
+</div>
         </section>
     </main>
 
