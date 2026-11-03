@@ -664,7 +664,7 @@ nav a.active {
 
     .about-header {
         padding: 20px;
-        gap: 5;
+        gap: 5px;
     }
 
     .about-logo {
@@ -677,7 +677,7 @@ nav a.active {
 
     .contact-header {
         padding: 20px;
-        gap: 5;
+        gap: 5px;
     }
 
     .contact-logo {
@@ -690,7 +690,7 @@ nav a.active {
 
     .category-header {
         padding: 20px;
-        gap: 5;
+        gap: 5px;
     }
 
     .category-logo {
@@ -703,7 +703,7 @@ nav a.active {
 
     .products-header {
         padding: 20px;
-        gap: 5;
+        gap: 5px;
     }
 
     .products-logo {
