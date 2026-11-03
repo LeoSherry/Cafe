@@ -139,88 +139,6 @@ nav a.active {
     color: #7d6653;
 }
 
-@media screen and (max-width: 768px) {
-
-    .index-header {
-        padding: 20px;
-        gap: 5px;
-    }
-
-    .index-logo {
-        padding: 10px;
-    }
-
-    .index-logo h1 {
-        font-size: 2rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        padding: 0;
-    }
-
-    nav ul li {
-        margin: 5px 0;
-    }
-
-    .highlight-grid {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .card-link {
-        width: 100%;
-    }
-
-    .hero {
-        padding: 60px 20px;
-    }
-
-    .hero h2 {
-        font-size: 2.2rem;
-    }
-
-    .hero p {
-        font-size: 1.2rem;
-    }
-
-    .highlights {
-        padding: 50px 20px;
-    }
-    .history {
-        flex-direction: column;
-        gap: 40px;
-        padding: 60px 24px;
-    }
-
-    .our-history {
-        text-align: left;
-    }
-
-    .our-history h2 {
-        font-size: 2.4rem;
-        margin-bottom: 20px;
-    }
-
-    .our-history p {
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin-bottom: 18px;
-    }
-
-    .our-history-image {
-        max-width: 100%;
-        order: -1;
-    }
-
-    .our-history-image img {
-        max-height: 300px;
-    }
-}
-
-
 /* about.html */
 
 .about-header {
@@ -719,4 +637,137 @@ nav a.active {
     font-weight: 700;
     font-size: 1.2rem;
     color: #a0522d;
+}
+
+@media screen and (max-width: 768px) {
+
+    .index-header {
+        padding: 20px;
+        gap: 5px;
+    }
+
+    .index-logo {
+        padding: 10px;
+    }
+
+    .index-logo h1 {
+        font-size: 2rem;
+    }
+
+    .about-header {
+        padding: 20px;
+        gap: 5;
+    }
+
+    .about-logo {
+        padding: 10px;
+    }
+
+    .about-logo h1 {
+        font-size: 2rem;
+    }
+
+    .contact-header {
+        padding: 20px;
+        gap: 5;
+    }
+
+    .contact-logo {
+        padding: 10px;
+    }
+
+    .contact-logo h1 {
+        font-size: 2rem;
+    }
+
+    .category-header {
+        padding: 20px;
+        gap: 5;
+    }
+
+    .category-logo {
+        padding: 10px;
+    }
+
+    .category-logo h1 {
+        font-size: 2rem;
+    }
+
+    .products-header {
+        padding: 20px;
+        gap: 5;
+    }
+
+    .products-logo {
+        padding: 10px;
+    }
+
+    .products-logo h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .highlight-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-link {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .highlights {
+        padding: 50px 20px;
+    }
+    .history {
+        flex-direction: column;
+        gap: 40px;
+        padding: 60px 24px;
+    }
+
+    .our-history {
+        text-align: left;
+    }
+
+    .our-history h2 {
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+
+    .our-history p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-bottom: 18px;
+    }
+
+    .our-history-image {
+        max-width: 100%;
+        order: -1;
+    }
+
+    .our-history-image img {
+        max-height: 300px;
+    }
 }
