@@ -110,7 +110,7 @@ nav a.active {
     font-size: 2.2rem;
     margin-bottom: 50px;
     position: relative;
-    display: inline-block;   /* Shrinks parent match text sizing */
+    display: inline-block;
 }
 
 .highlights > h2::after {
@@ -119,7 +119,7 @@ nav a.active {
     width: 50px;
     height: 3px;
     background-color: #a0522d;
-    margin: 12px auto 0 auto;   /* Centers the line under the heading */
+    margin: 12px auto 0 auto;
 }
 
 .highlight-grid {
@@ -141,7 +141,7 @@ nav a.active {
 .card {
     background: #ffffff;
     padding: 40px 30px;
-    border-radius: 12px;   /* Rounded Courners */
+    border-radius: 12px;
     flex: 1;
     min-width: 280px;
     box-shadow: 0 4px 20px rgba(74, 55, 40, 0.05);
@@ -150,7 +150,7 @@ nav a.active {
 }
 
 .card:hover {
-    transform: translateY(-5px);   /* Moves upwards when you hover */
+    transform: translateY(-5px);
 }
 
 .card h2 {
@@ -213,7 +213,6 @@ nav a.active {
     font-size: 3rem;
     color: #4a3728;
     margin-bottom: 30px;
-    font-style: italic;
     font-weight: normal;
     line-height: 1.2;
     font-style: italic;
@@ -262,7 +261,7 @@ nav a.active {
     font-family: 'Georgia', serif;
     font-size: 2rem;
     margin-bottom: 20px;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .our-values-grid {
