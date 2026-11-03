@@ -167,26 +167,6 @@ nav a.active {
 
 /* about.html */
 
-.about-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 40px;
-    background-color: #f4ece1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    gap: 15px;
-}
-
-.about-logo {
-    padding: 20px;
-}
-
-.about-logo h1 {
-    font-family: 'Georgia', serif;
-    font-size: 4.5rem;
-    color: #4a3728;
-}
-
 .our-story {
     padding: 90px 20px;
     background-color: #ebdcd0;
@@ -323,26 +303,6 @@ nav a.active {
 
 /* Contact.html */
 
-.contact-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 40px;
-    background-color: #f4ece1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    gap: 15px;
-}
-
-.contact-logo {
-    padding: 20px;
-}
-
-.contact-logo h1 {
-    font-family: 'Georgia', serif;
-    font-size: 4.5rem;
-    color: #4a3728;
-}
-
 .contact-section {
     max-width: 600px;
     margin: 60px auto;
@@ -425,26 +385,6 @@ nav a.active {
 }
 
 /* Category.html */
-
-.category-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 40px;
-    background-color: #f4ece1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    gap: 15px;
-}
-
-.category-logo {
-    padding: 20px;
-}
-
-.category-logo h1 {
-    font-family: 'Georgia', serif;
-    font-size: 4.5rem;
-    color: #4a3728;
-}
 
 .category-filter-buttons {
     margin: 30px 0 5px 0;
@@ -552,26 +492,6 @@ nav a.active {
 }
 
 /* products.html */
-
-.products-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px 40px;
-    background-color: #f4ece1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    gap: 15px;
-}
-
-.products-logo {
-    padding: 20px;
-}
-
-.products-logo h1 {
-    font-family: 'Georgia', serif;
-    font-size: 4.5rem;
-    color: #4a3728;
-}
 
 .products-section {
     max-width: 1100px;
