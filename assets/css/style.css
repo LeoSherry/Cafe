@@ -79,13 +79,16 @@ nav a.active {
 }
 
 .hero {
+    width: 100%;
     padding: 90px 20px;
     background-color: #ebdcd0;
     border-bottom: 1px solid rgba(74, 55, 40, 0.1);
     text-align: center;
+    box-sizing: border-box;
 }
 
 .hero h2 {
+    margin-top: 0;
     font-family: 'Georgia', serif;
     font-size: 2.8rem;
     color: #4a3728;
