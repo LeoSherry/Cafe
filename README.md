@@ -32,11 +32,30 @@ The **Cozy Corner Cafe** website is a fully responsive, functional front-end web
 
 ---
 
-## Deployment Procedure
-The repository is actively maintained with version control tracking tools (Git) and hosted live on the web via GitHub Pages. Follow these steps to access or review the application:
+## Testing Procedures and Findings
+To satisfy rigorous stability guidelines, the application underwent testing across multiple layers:
 
-1. Open your project repository panel on GitHub and select the **'Settings'** tab.
-2. Navigate down the left sidebar utility cluster to **'Pages'**.
-3. Under the **'Build and deployment'** section, click the 'Source' dropdown and set it to **'Deploy from a branch'**.
-4. Set your primary operational branch option to **'Main'** (or **'Master'**), keep the Root folder configuration (`/`) selected, and click **'Save'**.
-5. Once the automated deployment task finishes reloading, your live server URL will appear highlighted at the top of the interface.
+1. **Markup & Code Integrity Validation:**
+   * **HTML Evaluation:** Checked via the official W3C Validator. Resolved initial self-closing tag mismatches and closed all internal structural elements.
+   ![alt text](assets/photos/readme-photos/index-check.png)
+   ![alt text](assets/photos/readme-photos/about-check.png)
+   ![alt text](assets/photos/readme-photos/category-check.png)
+   ![alt text](assets/photos/readme-photos/products-check.png)
+   ![alt text](assets/photos/readme-photos/contact-check.png)
+
+   * **Style Validation:** Passed through the official Jigsaw CSS Validator to ensure styling properties contain correct unit values.
+   ![alt text](assets/photos/readme-photos/css-check.png)
+   * **Script Validation:** Screened script files with JavaScript linters (e.g., JSHint) to verify strict comparison assignments and eliminate structural runtime loops.
+2. **Form Interaction Loops:**
+   * **Test Matrix:** Submitted blank sheets, missing `@` fields, and valid user payloads. 
+   * **Finding:** JavaScript successfully blocked invalid submissions, highlighted target input text elements in crimson background filters, and accurately outputted clean message blocks.
+3. **Cross-Platform Responsiveness Layout Check:**
+   * **Test Matrix:** Tested layouts via browser on smaller screens
+   * **Finding:** Vertical navigation stacking rules execute appropriately
+
+---
+
+## Attributions & External Assets
+* **Development Tutorials:** Core structural design patterns adapted from official documentation modules on MDN Web Docs.
+* **Typography:** System fonts utilized (`Georgia`, `system-ui`, `sans-serif`) to maintain performance baselines.
+* **Imagery & Media Assets:** Creative graphics and product imagery were sourced from open license stock media libraries.
