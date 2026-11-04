@@ -2,7 +2,6 @@
 
 ## Project Overview
 The **Cozy Corner Cafe** website is a fully responsive, functional front-end web application developed to promote a fictional local business cafe. Built using semantic **HTML5**, custom layout styling rules in **CSS3**, and interactive **JavaScript**, the platform showcases the cafe's unique selling points, core profile details, product menus, and itemized catalog selections.
-![alt text](assets/photos/readme-photos/Screenshot-overview.png)
 
 ## Key System Elements
 * **Home Page (`index.html`):** Introduces the brand and highlights core unique selling points like premium sourcing and community presence.
