@@ -50,6 +50,7 @@ To satisfy rigorous stability guidelines, the application underwent testing acro
 2. **Form Interaction Loops:**
    * **Test Matrix:** Submitted blank sheets, missing `@` fields, and valid user payloads. 
    * **Finding:** JavaScript successfully blocked invalid submissions, highlighted target input text elements in crimson background filters, and accurately outputted clean message blocks.
+   ![alt text](assets/photos/readme-photos/red-check.png)
 3. **Cross-Platform Responsiveness Layout Check:**
    * **Test Matrix:** Tested layouts via browser on smaller screens
    * **Finding:** Vertical navigation stacking rules execute appropriately
