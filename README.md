@@ -53,6 +53,7 @@ To satisfy rigorous stability guidelines, the application underwent testing acro
 3. **Cross-Platform Responsiveness Layout Check:**
    * **Test Matrix:** Tested layouts via browser on smaller screens
    * **Finding:** Vertical navigation stacking rules execute appropriately
+   ![alt text](assets/photos/readme-photos/virtical-check.png)
 
 ---
 
