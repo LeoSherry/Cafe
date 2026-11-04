@@ -57,10 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Displays error message
 function showError(elementId, message) {
     document.getElementById(elementId).textContent = message;
 }
 
+// Reverts UI by clearing all error messages
 function clearErrors() {
     const errorMessage = document.querySelectorAll('.error-message');
     errorMessage.forEach(msg => msg.textContent = '');
@@ -76,22 +78,26 @@ function clearErrors() {
 
 // category.html
 
+// Makes sure page is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.filter-button');
     const menuItems = document.querySelectorAll('.menu-item');
 
     // Run code if filter buttons exist on the current page layout
     if (filterButtons.length > 0) {
+        // Attach a click event listener to every individual filter button
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 button.classList.add('active');
 
+                // Retrieve the specific category name
                 const targetCategory = button.getAttribute('data-category');
 
                 menuItems.forEach(item => {
                     const itemType = item.getAttribute('data-item-type');
 
+                    // If 'All' is selected, or if the item's type matches the clicked category, reveal the item
                     if (targetCategory === 'all' || itemType === targetCategory) {
                         item.classList.remove('hidden-item')
                     } else {
