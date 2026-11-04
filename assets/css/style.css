@@ -424,6 +424,10 @@ nav a.active {
     text-align: center;
 }
 
+.item-info figcaption {
+    font-size: 8px;
+}
+
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
