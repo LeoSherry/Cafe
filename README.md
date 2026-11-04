@@ -5,10 +5,15 @@ The **Cozy Corner Cafe** website is a fully responsive, functional front-end web
 
 ## Key System Elements
 * **Home Page (`index.html`):** Introduces the brand and highlights core unique selling points like premium sourcing and community presence.
+![alt text](assets/photos/readme-photos/index-image.png)
 * **About Page (`about.html`):** Outlines professional background details, values, and community milestones.
+![alt text](assets/photos/readme-photos/about-image.png)
 * **Category Page (`category.html`):** Organises the menu selections dynamically by groupings (Coffee, Cold Drinks, and Pastries).
+![alt text](assets/photos/readme-photos/category-image.png)
 * **Products Page (`products.html`):** Provides a comprehensive item catalog complete with item graphics, pricing data, and descriptions.
+![alt text](assets/photos/readme-photos/products-image.png)
 * **Contact Page (`contact.html`):** Displays localized touchpoints and integrates an evaluation contact form framework.
+![alt text](assets/photos/readme-photos/contact-image.png)
 
 ---
 
