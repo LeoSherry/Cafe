@@ -30,33 +30,38 @@
             <h2>Contact Us</h2>
             <p>Have a question or want to book a table? Send us a message!</p>
 
+            <!--Textbox to collect username-->
             <form id="contact-form" novalidate>
-                <!-- Fixed Name inputs, matching IDs, and removed extra "d"s -->
                 <div class="form-group">
                     <label for="userName">Name:</label>
                     <input type="text" id="userName" placeholder="Your Name">
                     <span class="error-message" id="name-error"></span>
                 </div>
 
+                <!--Textbox to collect Email-->
                 <div class="form-group">
                     <label for="userEmail">Email:</label>
                     <input type="email" id="userEmail" placeholder="Your Email Address">
                     <span class="error-message" id="email-error"></span>
                 </div>
 
+                <!--Textbox to collect users message-->
                 <div class="form-group">
                     <label for="userMessage">Message:</label>
                     <textarea id="userMessage" rows="5" placeholder="Your Message..."></textarea>
                     <span class="error-message" id="message-error"></span>
                 </div>
 
+                <!--Submit button-->
                 <button type="submit" id="submit-button">Send Message</button>
             </form>
 
+            <!--Will display message e.g. Error message-->
             <div id="formFeedback" class="feedback-container hidden"></div>
         </section>
     </main>
 
+    <!--Links external JavaScript file-->
     <script src="app.js"></script>
 </body>
 </html>
