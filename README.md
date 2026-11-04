@@ -46,6 +46,7 @@ To satisfy rigorous stability guidelines, the application underwent testing acro
    * **Style Validation:** Passed through the official Jigsaw CSS Validator to ensure styling properties contain correct unit values.
    ![alt text](assets/photos/readme-photos/css-check.png)
    * **Script Validation:** Screened script files with JavaScript linters (e.g., JSHint) to verify strict comparison assignments and eliminate structural runtime loops.
+   ![alt text](assets/photos/readme-photos/js-check.png)
 2. **Form Interaction Loops:**
    * **Test Matrix:** Submitted blank sheets, missing `@` fields, and valid user payloads. 
    * **Finding:** JavaScript successfully blocked invalid submissions, highlighted target input text elements in crimson background filters, and accurately outputted clean message blocks.
