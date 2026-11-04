@@ -40,10 +40,3 @@ The repository is actively maintained with version control tracking tools (Git) 
 3. Under the **'Build and deployment'** section, click the 'Source' dropdown and set it to **'Deploy from a branch'**.
 4. Set your primary operational branch option to **'Main'** (or **'Master'**), keep the Root folder configuration (`/`) selected, and click **'Save'**.
 5. Once the automated deployment task finishes reloading, your live server URL will appear highlighted at the top of the interface.
-
----
-
-## Attributions & External Assets
-* **Development Tutorials:** Core structural design patterns adapted from official documentation modules on MDN Web Docs.
-* **Typography:** System fonts utilized (`Georgia`, `system-ui`, `sans-serif`) to maintain performance baselines.
-* **Imagery & Media Assets:** Creative graphics and product imagery were sourced from open license stock media libraries.
