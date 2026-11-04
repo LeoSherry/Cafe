@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 // Wait until the HTML document is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
@@ -99,12 +100,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // If 'All' is selected, or if the item's type matches the clicked category, reveal the item
                     if (targetCategory === 'all' || itemType === targetCategory) {
-                        item.classList.remove('hidden-item')
+                        item.classList.remove('hidden-item');
                     } else {
-                        item.classList.add('hidden-item')
+                        item.classList.add('hidden-item');
                     }
-                })
-            })
-        })
+                });
+            });
+        });
     }
 });
